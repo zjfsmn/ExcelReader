@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jingfei_zhang/Desktop/ReadExcel/ConsoleApplciation/ConsoleApplciation.csproj": {}
+  },
+  "projects": {
+    "/Users/jingfei_zhang/Desktop/ReadExcel/ConsoleApplciation/ConsoleApplciation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jingfei_zhang/Desktop/ReadExcel/ConsoleApplciation/ConsoleApplciation.csproj",
+        "projectName": "ConsoleApplciation",
+        "projectPath": "/Users/jingfei_zhang/Desktop/ReadExcel/ConsoleApplciation/ConsoleApplciation.csproj",
+        "packagesPath": "/Users/jingfei_zhang/.nuget/packages/",
+        "outputPath": "/Users/jingfei_zhang/Desktop/ReadExcel/ConsoleApplciation/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jingfei_zhang/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.1, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.TestPlatform.CommunicationUtilities": {
+              "target": "Package",
+              "version": "[15.0.0, )"
+            },
+            "Xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
